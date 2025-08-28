@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <form action="" method="post">
+      <label for="product">Produto: </label><br />
+      <select name="product" id="product" required>
+        <option value=""></option>
+        <option value="banana">Banana</option>
+        <option value="maçã">Maçã</option>
+        <option value="uva">Uva</option>
+         <option value="abacate"> Abacate</option>
+      </select>
+      <br /><br />
 
-    <h1>FORMULARIO DE PEDIDOS</h1>
-    
-    <label>Produtos
-            <select> name="Produtos"
-                <option value="banana">Banana</option>
-                <option value="maçãn">Maçã</option>
-                <option value="mamão">Mamão</option>
-                <option value="uva">Uva</option>
-            </select>
+      <label for="quantity">Quantidade: </label><br />
+      <input
+        required
+        type="number"
+        name="quantity"
+        id="quantity"
+        min="1"
+        max="10"
+      />
+      <br /><br />
 
-        <button type="submit">Enviar</button>
+      <button type="submit">Enviar</button>
       <button type="reset">Cancelar</button>
     </form>
-
-
-</body>
+  </body>
 </html>
