@@ -23,6 +23,16 @@ titulos {
 
 }
 
+corpo {
+
+    padding: 0.5rem 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-family: "Segoe UI", sans-serif;
+    
+
+
+}
 
 
 
